@@ -208,12 +208,12 @@ return Column(crossAxisAlignment: CrossAxisAlignment.start,
           padding: const EdgeInsets.symmetric(vertical: 40,horizontal: 40),
           child: Center(
             child: Container(
-              child: Column( 
+              child: Column( mainAxisAlignment: MainAxisAlignment.center,
                 children:<Widget> [ 
                   Text(
                               'Sign In',
                               style: TextStyle(
-                                color: Theme.of(context).colorScheme.onBackground,
+                                color: Theme.of(context).colorScheme.onSecondary,
                                 fontFamily: 'OpenSans',
                                 fontSize: 40.0,
                                 fontWeight: FontWeight.bold,

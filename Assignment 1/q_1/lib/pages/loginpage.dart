@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'appcolors.dart';
-import 'decorations.dart';
+import '../colors_decorations/appcolors.dart';
+import '../colors_decorations/decorations.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'homepage.dart';
 
@@ -138,7 +138,7 @@ return Column(crossAxisAlignment: CrossAxisAlignment.start,
         
         },
        style: ButtonStyle(
-                            minimumSize: MaterialStateProperty.all(Size(180, 60)),
+                            minimumSize: MaterialStateProperty.all(Size(100, 60)),
                             backgroundColor: MaterialStateProperty.all<Color>(
                                 Color.fromARGB(255, 253, 253, 253)),
                           ),
@@ -213,7 +213,7 @@ return Column(crossAxisAlignment: CrossAxisAlignment.start,
                   Text(
                               'Sign In',
                               style: TextStyle(
-                                color: Theme.of(context).colorScheme.onSecondary,
+                                color: Theme.of(context).colorScheme.onPrimary,
                                 fontFamily: 'OpenSans',
                                 fontSize: 40.0,
                                 fontWeight: FontWeight.bold,

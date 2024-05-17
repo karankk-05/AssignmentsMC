@@ -31,18 +31,18 @@ final kBoxDecorationStyle = BoxDecoration(
 class mytext {
   static late BuildContext context;
 
-  static TextStyle get headingtext1{
+  static TextStyle headingtext1({required double fontSize}){
     return TextStyle(
   color: Theme.of(context).colorScheme.onSecondary,
   fontFamily: 'OpenSans',
-  fontSize: 16,
+  fontSize: fontSize,
    );
   }
-  static TextStyle get headingtext2{
+  static TextStyle headingbold({required double fontSize}){
     return TextStyle(
   color: Theme.of(context).colorScheme.onSecondary,
   fontFamily: 'OpenSans',
-  fontSize: 15,
+  fontSize: fontSize,
   fontWeight: FontWeight.bold
    );
   }
@@ -54,13 +54,6 @@ class mytext {
   
    );
   }
-  static TextStyle get subheadingtext2{
-    return TextStyle(
-  color: Theme.of(context).colorScheme.onSecondary,
-  fontFamily: 'OpenSans',
-  fontSize: 12,
-  fontWeight: FontWeight.bold
+ 
   
-   );
-  }
 }

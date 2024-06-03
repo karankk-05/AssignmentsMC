@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'pages/loginpage.dart';
 import 'colors_decorations/appcolors.dart';
 import 'pages/homepage.dart';
+import 'pages/compose.dart';
+import 'package:mailer/mailer.dart';
+import 'package:mailer/smtp_server.dart';
+
 void main() {
   runApp(const MyApp());
 }
-
-
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -20,9 +21,8 @@ class MyApp extends StatelessWidget {
       title: 'Mail Client',
       theme: appthemes.lighttheme,
       darkTheme: appthemes.darktheme,
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.dark,
       home: loginpage(),
     );
   }
 }
-

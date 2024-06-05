@@ -1,5 +1,6 @@
 This is the file structure of my lib folder of the app.
-![Screenshot](Assignment\ 1/q_1/assets/Screenshot 2024-06-06 001201.png)
+![Screenshot](assets/Screenshot%202024-06-06%20001201.png)
+
 
 <!-- ![Screenshot_20240517_221753](https://github.com/karankk-05/AssignmentsMC/assets/153803878/f91cb23d-4092-47bb-9ec8-dd5f3fec9e0f)
 ![Screenshot_20240517_221859](https://github.com/karankk-05/AssignmentsMC/assets/153803878/e893220c-f230-480f-8bf5-f9c060b2c766)

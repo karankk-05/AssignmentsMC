@@ -1,8 +1,9 @@
 import 'package:enough_mail/enough_mail.dart';
 import 'package:flutter/material.dart';
-import '../pages/homepage.dart';
+import 'package:q_1/screens/MainPage.dart';
 import '../colors_decorations/decorations.dart';
 
+/// This function handles the login logic
 Future<void> login(String email, String password, BuildContext context) async {
   String smtpServerHost = 'smtp.cc.iitk.ac.in';
   int smtpServerPort = 465;
@@ -17,12 +18,12 @@ Future<void> login(String email, String password, BuildContext context) async {
     // Attempt authentication
     await client.authenticate(email, password, AuthMechanism.plain);
 
-    // If no exception was thrown, authentication succeeded
+    // If no exception was thrown, authentication succeeded and naviagate to homepage
 
-    Navigator.push(
+    Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (context) => Homepage(
+        builder: (context) => MainPage(
           email: email,
           password: password,
         ),

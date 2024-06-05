@@ -5,4 +5,7 @@
 ![Screenshot_20240517_221809](https://github.com/karankk-05/AssignmentsMC/assets/153803878/e3ef6582-c876-452a-81f1-325ba98a7937)
 
 So these are the screenshots of the built app. I have tried to copy the UI of gmail with a different color scheme. I will be adding more pages and functionalities as required in the meantime.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 51f56f2df1af07e3abd4353f818066414f7acf84

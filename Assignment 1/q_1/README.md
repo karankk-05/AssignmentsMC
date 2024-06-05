@@ -1,45 +1,5 @@
 This is the file structure of my lib folder of the app.
-
-│ main.dart
-│
-├───colors_decorations
-│ appcolors.dart
-│ decorations.dart
-│
-├───screens
-│ Compose.dart
-│ Drafts.dart
-│ EmailDetails.dart
-│ Inbox.dart
-│ LoginPage.dart
-│ MainPage.dart
-│ Sent.dart
-│ Starred.dart
-│
-├───services
-│ EmailFetchService.dart
-│ EmailSearchService.dart
-│ LoginService.dart
-│ SendEmailService.dart
-│
-└───widgets
-│ CustomAppBar.dart
-│ TextFields.dart
-│
-├───Auth
-│ LoginButton.dart
-│
-├───EmailDetails
-│ ActionButton.dart
-│
-├───Inbox
-│ Avatar.dart
-│ ComposeFloatingAction.dart
-│ EmailTile.dart
-│
-└───Navigation
-AppDrawer.dart
-AppDrawerItem.dart
+![Screenshot](assets/images/Screenshot_2024-06-06_001201.png)
 
 <!-- ![Screenshot_20240517_221753](https://github.com/karankk-05/AssignmentsMC/assets/153803878/f91cb23d-4092-47bb-9ec8-dd5f3fec9e0f)
 ![Screenshot_20240517_221859](https://github.com/karankk-05/AssignmentsMC/assets/153803878/e893220c-f230-480f-8bf5-f9c060b2c766)
